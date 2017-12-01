@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<command>
+    <author>sundar</author>
+    <since>2017-10-22</since>
+    <modified>2017-10-22</modified>
+</command>
+
+<properties>
+    <entry key="address">jdbc:mysql://localhost:3306/crud</entry>
+    <entry key="userName">root</entry>
+    <entry key="password"></entry>
+</properties>

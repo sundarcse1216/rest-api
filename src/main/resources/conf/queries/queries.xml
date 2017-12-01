@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<!--<command>
+    <author>sundar</author>
+    <since>2017-10-22</since>
+    <modified>2017-10-22</modified>
+</command>-->
+
+<properties>
+    
+    <entry key="GET_ALL_REGORDS">
+        SELECT * FROM employee_details
+    </entry>
+    
+    <entry key="GET_PARTICULAR_RECORD">
+        SELECT * FROM employee_details WHERE empid=?
+    </entry>
+    
+    <entry key="ADD_RECORDS">
+        INSERT INTO employee_details(empid, name, age, gender, salary, location, status) VALUES(?,?,?,?,?,?,?)
+    </entry>
+    
+    <entry key="UPDATE_RECORD">
+        UPDATE employee_details SET name=?, age=?, gender=?, salary=?, location=? WHERE empid=?
+    </entry>
+    
+    <entry key="DELETE_RECORD">
+        UPDATE employee_details SET status='D' WHERE empid=?
+    </entry>
+    
+</properties>
