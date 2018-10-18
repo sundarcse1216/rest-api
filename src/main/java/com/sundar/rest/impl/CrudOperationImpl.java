@@ -112,7 +112,7 @@ public class CrudOperationImpl implements CrudOperation {
                 resultMap.put("result", list);
             }
         } catch (Exception ex) {
-            log.error("Exception occurred while get particular records : " + ex, ex);
+            log.error("Exception occurred while get records : " + ex, ex);
         } finally {
             if (rs != null) {
                 try {
